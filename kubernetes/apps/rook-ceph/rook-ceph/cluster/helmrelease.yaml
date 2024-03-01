@@ -117,7 +117,7 @@ spec:
               - name: /dev/nvme0n1p4
           - name: "apk3s53"
             devices:
-              - name: /dev/nvme0n1p4
+              - name: /dev/nvme0n1p3
 
     cephBlockPools:
       - name: ceph-blockpool
