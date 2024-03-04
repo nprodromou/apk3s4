@@ -111,7 +111,7 @@ spec:
         nodes:
           - name: "apk3s51"
             devices:
-              - name: /dev/nvme0n1p5
+              - name: /dev/nvme0n1p4
           - name: "apk3s52"
             devices:
               - name: /dev/nvme0n1p5
