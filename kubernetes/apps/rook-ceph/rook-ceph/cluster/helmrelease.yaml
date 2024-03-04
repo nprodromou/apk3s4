@@ -104,8 +104,8 @@ spec:
         ssl: false
 
       storage:
-        useAllNodes: false
-        useAllDevices: false
+        useAllNodes: true
+        useAllDevices: true
         config:
           osdsPerDevice: "1"
         nodes:
