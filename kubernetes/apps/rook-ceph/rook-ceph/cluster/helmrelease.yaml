@@ -166,7 +166,7 @@ spec:
                 cpu: "35m"
                 memory: "1Gi"
               limits:
-                memory: "3Gi"
+                memory: "4Gi"
         storageClass:
           enabled: true
           isDefault: false
@@ -214,9 +214,4 @@ spec:
           healthCheck:
             bucket:
               interval: 60s
-        storageClass:
-          enabled: true
-          name: ceph-bucket
-          reclaimPolicy: Delete
-          parameters:
-            region: us-east-1
+
